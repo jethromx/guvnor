@@ -11,7 +11,7 @@ Iniciar guvnor dentro de un contenerdor docker
 
 ## Iniciar contenedor
 
-    docker run --rm --name guvnor -d jethro/guvnor:5.5.0
+    docker run --rm --name guvnor -p 8080:8080 -d jethro/guvnor:5.5.0
 
 ### Entrar al contendor
 
